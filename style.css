@@ -28,5 +28,14 @@ body {
     48%, 53% {
         transform: var(--_t) rotate(-180deg);
     }
+    64.66%, 69.66% {
+        transform: var(--_t) rotate(-240deg);
+    }
+    81.33%, 86.33% {
+        transform: var(--_t) rotate(-300deg);
+    }
+    98%, 100% {
+        transform: var(--_t) rotate(-360deg);
+    }
     
 }
