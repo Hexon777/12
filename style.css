@@ -14,3 +14,19 @@ body {
     --_t: perspective(280px) rotateX(-90deg);
     animation: r 12s cubic-bezier(0.5, -0.2, 0.5, 1.2) infinite;
 }
+
+@keyframes r {
+    0%, 3% {
+        transform: var(--_t) rotate(0deg);
+    }
+    14.66%, 19.66% {
+        transform: var(--_t) rotate(-60deg);
+    }
+    31.33%, 36.33% {
+        transform: var(--_t) rotate(-120deg);
+    }
+    48%, 53% {
+        transform: var(--_t) rotate(-180deg);
+    }
+    
+}
